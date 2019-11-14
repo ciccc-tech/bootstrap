@@ -1,6 +1,6 @@
 package BootstrapApp;
 
-
+import Bootstrap.parts.AbstractBootstrap;
 
 /**
  * @author Ivan Malone
@@ -23,7 +23,7 @@ package BootstrapApp;
  * in the blanks. 
  * 
  */
-public class Bootstrap 
+public class Bootstrap extends AbstractBootstrap
 	{
 
 	}
