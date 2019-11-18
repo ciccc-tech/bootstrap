@@ -1,11 +1,7 @@
 import Bootstrap.App.Bootstrap;
 
-public class Application extends Bootstrap {
-	
-	public static void main(String[] test)
-	{
-		Application app = new Application(test);
-	}
+public class Application extends Bootstrap
+{
 
 	public Application(String[] CommandLineArguments) {
 		super(CommandLineArguments);
@@ -15,7 +11,7 @@ public class Application extends Bootstrap {
 	@Override
 	public void OnInitialized() {
 		// TODO Auto-generated method stub
-		System.out.print("testtesttest");
+		
 	}
 
 	@Override
@@ -29,5 +25,6 @@ public class Application extends Bootstrap {
 		// TODO Auto-generated method stub
 		
 	}
-
+	
+	
 }
